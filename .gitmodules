@@ -1,6 +1,3 @@
 [submodule "lib/core_plugin"]
 	path = lib/core_plugin
 	url = https://github.com/straightvisions/sv_core_plugin.git
-[submodule "lib/modules/google_optimize"]
-	path = lib/modules/google_optimize
-	url = ../module_sv_tracking_manager_services_google_optimize
