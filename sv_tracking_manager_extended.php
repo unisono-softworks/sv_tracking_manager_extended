@@ -1,6 +1,6 @@
 <?php
 /*
-Version: 2.0.02
+Version: 2.0.04
 Plugin Name: SV Tracking Manager Extended
 Text Domain: sv_tracking_manager_extended
 Description: Additional Features extending the SV Tracking Manager Plugin
