@@ -99,7 +99,7 @@
 
 			return true;
 		}
-		protected function load_settings(): google_customer_reviews{
+		public function load_settings(): google_customer_reviews{
 			$this->get_setting('activate')
 				->set_title( __( 'Activate Meetings Script', 'sv_tracking_manager_extended' ) )
 				->load_type( 'checkbox' );

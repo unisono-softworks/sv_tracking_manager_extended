@@ -31,7 +31,7 @@
 			add_action('wp', array($this, 'bypass_usercentrics'));
 		}
 		
-		protected function load_settings(): google_optimize {
+		public function load_settings(): google_optimize {
 			$this->get_setting('activate')
 				 ->set_title( __( 'Activate', 'sv_tracking_manager_extended' ) )
 				 ->set_description('Enable Tracking')

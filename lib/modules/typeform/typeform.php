@@ -14,7 +14,7 @@
 			add_shortcode($this->get_prefix(), array($this, 'load'));
 		}
 		
-		protected function load_settings(): typeform {
+		public function load_settings(): typeform {
 			$this->get_setting('activate')
 				 ->set_title( __( 'Activate', 'sv_tracking_manager_extended' ) )
 				 ->set_description('Insert forms via shortcode: [sv_tracking_manager_extended_typeform id="" width="" height=""]')

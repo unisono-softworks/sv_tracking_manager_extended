@@ -50,7 +50,7 @@
 
 			return true;
 		}
-		protected function load_settings(): hubspot{
+		public function load_settings(): hubspot{
 			$this->get_setting( 'disable_plugin_loader' )
 				->set_title( __( 'Disable Plugin Loader', 'sv_tracking_manager_extended' ) )
 				->set_description( __( 'Disable Loading Hubspot Pixel via official Hubspot Plugin. This prevents doubled Script loading and respects Usercentrics CMP. You should disable Hubspot Cookie Consent Feature if loading is controlled by Usercentrics CMP.', 'sv_tracking_manager_extended' ) )

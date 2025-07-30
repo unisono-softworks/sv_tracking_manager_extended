@@ -11,7 +11,7 @@
 			
 			add_action('wp', array($this, 'wp_init'));
 		}
-		protected function load_settings(): google_optimize {
+		public function load_settings(): google_optimize {
 			$this->get_setting('enable_on_page')
 				 ->set_title(__('Enable', 'sv_tracking_manager_extended'))
 				 ->set_description(__('Enable Optimize on this page.', 'sv_tracking_manager_extended'))

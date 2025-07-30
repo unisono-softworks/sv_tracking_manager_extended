@@ -26,7 +26,7 @@
 
 			return $this;
 		}
-		protected function load_settings(): plausible{
+		public function load_settings(): plausible{
 			$this->get_setting( 'local_cache' )
 				->set_title( __( 'Activate Local Proxy', 'sv_tracking_manager_extended' ) )
 				->set_description( __( 'Communication with Plausible is tunneled by server proxy. External Files will be cached and updated every 24 hours where possible.', 'sv_tracking_manager_extended' ) )

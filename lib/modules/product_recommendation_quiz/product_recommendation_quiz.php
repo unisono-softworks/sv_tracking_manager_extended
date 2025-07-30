@@ -11,7 +11,7 @@
 			add_action('wp_enqueue_scripts', array($this, 'usercentrics_support'), 100);
 		}
 
-		protected function load_settings(): product_recommendation_quiz{
+		public function load_settings(): product_recommendation_quiz{
 			$this->get_setting( 'usercentrics_support' )
 				->set_title( __( 'Enable Javascript Loading Opt In via Usercentrics', 'sv_tracking_manager_extended' ) )
 				->load_type( 'checkbox' );

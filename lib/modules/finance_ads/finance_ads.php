@@ -17,7 +17,7 @@
 			add_action('init', array($this, 'load'));
 		}
 		
-		protected function load_settings(): finance_ads {
+		public function load_settings(): finance_ads {
 			$this->get_setting('activate')
 				 ->set_title( __( 'Activate', 'sv_tracking_manager_extended' ) )
 				 ->set_description('Enable Tracking')

@@ -14,7 +14,7 @@
 				add_filter('script_loader_tag', array($this, 'script_loader_tag'), 100000, 2);
 			}
 		}
-		protected function load_settings(): klaviyo {
+		public function load_settings(): klaviyo {
 			$this->get_setting('activate')
 				 ->set_title( __( 'Activate Usercentrics Compatibility Mode', 'sv_tracking_manager_extended' ) )
 				 ->set_description('Scripts from Klaviyo Plugin need confirmation in Usercentrics CMP')
