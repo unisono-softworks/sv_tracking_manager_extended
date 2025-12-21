@@ -23,7 +23,7 @@
 			$this->set_section_title( $info['name'] )
 				->set_section_desc( $info['desc'] )
 				->set_section_type('')
-				->set_section_privacy( '<p>' . $this->get_section_title() . __(' does not collect or share any data if it is not the obvious purpose of a feature.',  'sv_tracking_manager_extended').'</p>' );
+				->set_section_privacy( '<p>' . $this->get_section_title() .'</p>' );
 		}
 	}
 	
